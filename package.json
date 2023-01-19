@@ -1,6 +1,6 @@
 {
   "name": "@garycraft/orizuru",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Library to Interface with the Orizuru Minecraft Plugin",
   "main": "lib/index.js",
   "scripts": {
