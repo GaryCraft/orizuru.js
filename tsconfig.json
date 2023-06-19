@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"rootDir": "./src",
+		"outDir": "./lib",
+		"noEmitHelpers": false,
+		"target": "ES6",
+		"moduleResolution": "node",
+		"module": "Node16",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strictNullChecks": true
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"typedocOptions":{
+		"out": "./docs",
+		"entryPoints" : ["./src", "README.md"],
+	}
+}
